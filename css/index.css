@@ -808,6 +808,8 @@
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.06);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.15);
   --offset: 0px;
+  scrollbar-width: thin;
+  scrollbar-color: #49b1f5 transparent;
   --hl-color: #eff;
   --hl-bg: #212121;
   --hltools-bg: #1c1c1c;
@@ -3480,7 +3482,7 @@ a.console_switchbutton {
     border-radius: 12px 12px 0 0;
   }
   .page .layout#content-inner {
-    background: var(--sco-background);
+    background: none;
   }
 }
 @media screen and (min-width: 900px) {

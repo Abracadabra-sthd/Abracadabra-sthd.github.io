@@ -575,24 +575,7 @@ let sco = {
             });
         }
     },
-    /**
-     * 图片添加水印
-     */
-    addPhotoFigcaption: function () {
-        let images = document.querySelectorAll('#article-container img');
-        images.forEach((image) => {
-            const imageParent = image.parentNode;
-            const captionText = image.getAttribute('alt');
 
-            if (captionText) {
-                const captionElement = document.createElement('div');
-                captionElement.className = 'img-alt is-center';
-                captionElement.textContent = captionText;
-
-                imageParent.insertBefore(captionElement, image.nextSibling);
-            }
-        });
-    },
     /**
      * 下载图片并添加水印
      */
