@@ -49,7 +49,8 @@ var anzhiyu = {
   
       document.getElementById("menu-mask").addEventListener("click", function () {
         if (window.location.pathname != "/music/") return;
-        anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");
+          anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");
+          document.getElementById("menu-mask").style.display = "none";
       });
     },
   };

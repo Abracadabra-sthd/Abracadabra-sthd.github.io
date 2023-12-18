@@ -250,6 +250,7 @@
     #anMusic-page ol > li {
       display: flex;
       margin: 0 10px;
+      color:#000;
     }
     #anMusic-page ol > li span {
       color: var(--font-color);
